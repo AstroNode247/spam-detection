@@ -4,7 +4,7 @@ from pathlib import Path
 from typing import Any
 
 from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
-from sklearn.naive_bayes import MultinomialNBd
+from sklearn.naive_bayes import MultinomialNB
 
 from spam_detection.config import DEFAULT_MODEL_PATH, NB_ALPHA
 from spam_detection.data_processing.pipeline import prepare_training_matrices
